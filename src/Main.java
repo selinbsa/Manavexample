@@ -13,6 +13,7 @@ public class Main {
         double banana = 0.95;
         double aurbergine = 5.00;
 
+        //Getting information about how many kilos of fruits and vegetables are required
         System.out.println("Armut kaç kilo? : ");
         double kilo_pear = scanner.nextDouble();
 
@@ -28,7 +29,10 @@ public class Main {
         System.out.println("Patlıcan kaç kilo? : ");
         double kilo_aurbergine = scanner.nextDouble();
 
+        //Calculating total price of all fruits and vegetables are required
         double total_price = (pear*kilo_pear)+(apple*kilo_apple)+(tomato*kilo_tomato)+(banana*kilo_banana)+(aurbergine*kilo_aurbergine);
+
+        //Showing total price to user
         System.out.println("Toplam tutar : "+ total_price + "TL");
 
 
